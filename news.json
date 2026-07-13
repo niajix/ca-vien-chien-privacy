@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sukien_trungthu_2026",
+    "priority": 10,
+    "active": true,
+    "start_at": "2026-09-01T00:00:00",
+    "end_at": "2026-09-20T23:59:59",
+    "tag": "event",
+    "title_vi": "🎉 Sự kiện Trung Thu",
+    "body_vi": "Đăng nhập mỗi ngày trong sự kiện để nhận 5 kim cương!",
+    "title_en": "🎉 Mid-Autumn Event",
+    "body_en": "Log in daily during the event to receive 5 diamonds!"
+  },
+  {
+    "id": "update_1_1_0",
+    "priority": 5,
+    "active": true,
+    "start_at": "",
+    "end_at": "",
+    "tag": "update",
+    "title_vi": "🆕 Cập nhật 1.1.0",
+    "body_vi": "Thêm 3 loại sốt mới và sửa lỗi tủ lạnh.",
+    "title_en": "🆕 Update 1.1.0",
+    "body_en": "Added 3 new sauces and fixed the fridge bug."
+  }
+]
