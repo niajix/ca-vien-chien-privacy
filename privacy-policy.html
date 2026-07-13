@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chính sách quyền riêng tư — Cá Viên Chiên</title>
+<style>
+  :root {
+    --bg: #FDF3E7;
+    --card: #F5DEC8;
+    --accent: #C17B5C;
+    --text: #6B4C3B;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.7;
+    padding: 24px 16px 64px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 28px 24px;
+    margin-bottom: 24px;
+    border-left: 6px solid var(--accent);
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .sub { font-size: 0.95rem; opacity: 0.85; }
+  .lang-toggle {
+    margin-top: 16px;
+    display: inline-flex;
+    border: 2px solid var(--accent);
+    border-radius: 999px;
+    overflow: hidden;
+    font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+  }
+  .lang-toggle button {
+    border: 0;
+    background: transparent;
+    color: var(--text);
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .lang-toggle button.active {
+    background: var(--accent);
+    color: #fff;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin: 28px 0 8px;
+    color: var(--accent);
+  }
+  p, li { margin-bottom: 8px; }
+  ul { padding-left: 22px; }
+  a { color: var(--accent); }
+  .note {
+    background: var(--card);
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin: 12px 0;
+    font-size: 0.95rem;
+  }
+  [hidden] { display: none !important; }
+  footer { margin-top: 40px; font-size: 0.85rem; opacity: 0.7; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🍢 Cá Viên Chiên</h1>
+    <p class="sub" data-vi>Chính sách quyền riêng tư — Cập nhật lần cuối: 02/07/2026</p>
+    <p class="sub" data-en hidden>Privacy Policy — Last updated: July 2, 2026</p>
+    <div class="lang-toggle">
+      <button id="btn-vi" class="active" onclick="setLang('vi')">Tiếng Việt</button>
+      <button id="btn-en" onclick="setLang('en')">English</button>
+    </div>
+  </header>
+
+  <!-- ============ TIẾNG VIỆT ============ -->
+  <main data-vi>
+    <h2>1. Giới thiệu</h2>
+    <p>Cá Viên Chiên ("trò chơi", "chúng tôi") là trò chơi mô phỏng bán hàng rong do <strong>[TÊN NHÀ PHÁT TRIỂN]</strong> phát triển và phát hành trên Google Play. Chính sách này giải thích những dữ liệu chúng tôi thu thập, lý do thu thập và cách bạn kiểm soát dữ liệu của mình.</p>
+
+    <h2>2. Dữ liệu chúng tôi thu thập</h2>
+    <p><strong>Khi bạn tạo tài khoản (không bắt buộc):</strong></p>
+    <ul>
+      <li><strong>Địa chỉ email và mật khẩu</strong> — dùng để đăng nhập. Mật khẩu được Firebase Authentication (Google) xử lý và lưu ở dạng mã hóa; chúng tôi không bao giờ nhìn thấy mật khẩu gốc của bạn.</li>
+      <li><strong>Mã định danh người dùng (UID)</strong> — do Firebase tạo tự động để liên kết dữ liệu game với tài khoản của bạn.</li>
+    </ul>
+    <p><strong>Khi bạn dùng tính năng lưu đám mây và bảng xếp hạng:</strong></p>
+    <ul>
+      <li><strong>Dữ liệu tiến trình game</strong> — tiền trong game, cấp độ, danh tiếng, kim cương, ngày chơi, kho nguyên liệu và nước sốt.</li>
+      <li><strong>Tên hiển thị</strong> do bạn tự chọn, cùng cấp độ, doanh thu và danh tiếng — hiển thị công khai trên bảng xếp hạng trong game cho người chơi khác xem.</li>
+    </ul>
+    <p><strong>Nếu bạn chơi mà không tạo tài khoản:</strong> toàn bộ dữ liệu game chỉ lưu trên thiết bị của bạn và không được gửi đến máy chủ của chúng tôi.</p>
+    <p><strong>Quảng cáo (Google AdMob):</strong> trò chơi có thể hiển thị quảng cáo qua Google AdMob. AdMob có thể thu thập mã quảng cáo của thiết bị (Advertising ID), thông tin tương tác với quảng cáo và dữ liệu chẩn đoán, theo <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Chính sách quyền riêng tư của Google</a>.</p>
+    <p><strong>Mua hàng trong ứng dụng:</strong> giao dịch được xử lý hoàn toàn bởi Google Play Billing. Chúng tôi không thu thập hay lưu trữ thông tin thẻ/thanh toán của bạn.</p>
+
+    <h2>3. Mục đích sử dụng dữ liệu</h2>
+    <ul>
+      <li>Quản lý tài khoản và đồng bộ tiến trình game giữa các thiết bị (lưu đám mây).</li>
+      <li>Vận hành bảng xếp hạng trong game.</li>
+      <li>Hiển thị quảng cáo để duy trì trò chơi miễn phí.</li>
+    </ul>
+    <p>Chúng tôi <strong>không bán</strong> dữ liệu cá nhân của bạn và <strong>không chia sẻ</strong> dữ liệu với bên thứ ba ngoài các nhà cung cấp dịch vụ nêu tại mục 4.</p>
+
+    <h2>4. Dịch vụ bên thứ ba</h2>
+    <ul>
+      <li><strong>Firebase Authentication &amp; Cloud Firestore (Google)</strong> — đăng nhập và lưu trữ dữ liệu game. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Chính sách của Firebase</a></li>
+      <li><strong>Google AdMob</strong> — hiển thị quảng cáo. <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Chính sách quảng cáo của Google</a></li>
+      <li><strong>Google Play Billing</strong> — xử lý mua hàng trong ứng dụng. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Chính sách của Google</a></li>
+    </ul>
+
+    <h2>5. Bảo mật và lưu trữ</h2>
+    <p>Mọi dữ liệu truyền giữa trò chơi và máy chủ đều được mã hóa bằng HTTPS. Dữ liệu tài khoản được lưu trên hạ tầng Google Cloud với quy tắc bảo mật chỉ cho phép chính bạn đọc/ghi dữ liệu của mình. Dữ liệu được giữ cho đến khi bạn xóa tài khoản.</p>
+
+    <h2 id="delete-account">6. Xóa tài khoản và dữ liệu</h2>
+    <p>Bạn có thể yêu cầu xóa tài khoản và toàn bộ dữ liệu liên quan (email, UID, dữ liệu lưu đám mây, mục bảng xếp hạng) bằng một trong hai cách:</p>
+    <ul>
+      <li><strong>Trong game:</strong> Cài đặt → Tài khoản → Xóa tài khoản.</li>
+      <li><strong>Qua email:</strong> gửi yêu cầu đến <a href="mailto:[EMAIL LIÊN HỆ]">[EMAIL LIÊN HỆ]</a> từ địa chỉ email đã đăng ký, tiêu đề "Xóa tài khoản Cá Viên Chiên". Chúng tôi sẽ xử lý trong vòng 30 ngày.</li>
+    </ul>
+    <p>Sau khi xóa, dữ liệu không thể khôi phục. Dữ liệu lưu cục bộ trên thiết bị sẽ bị xóa khi bạn gỡ cài đặt trò chơi.</p>
+
+    <h2>7. Trẻ em</h2>
+    <p>Trò chơi không hướng đến trẻ em dưới 13 tuổi và chúng tôi không cố ý thu thập dữ liệu cá nhân từ trẻ em dưới 13 tuổi. Nếu bạn cho rằng trẻ em đã cung cấp dữ liệu cá nhân cho chúng tôi, vui lòng liên hệ để chúng tôi xóa dữ liệu đó.</p>
+
+    <h2>8. Thay đổi chính sách</h2>
+    <p>Khi chính sách này thay đổi, chúng tôi sẽ cập nhật ngày "Cập nhật lần cuối" ở đầu trang. Thay đổi quan trọng sẽ được thông báo trong game.</p>
+
+    <h2>9. Liên hệ</h2>
+    <p>Mọi thắc mắc về quyền riêng tư, vui lòng liên hệ: <a href="mailto:[EMAIL LIÊN HỆ]">[EMAIL LIÊN HỆ]</a></p>
+  </main>
+
+  <!-- ============ ENGLISH ============ -->
+  <main data-en hidden>
+    <h2>1. Introduction</h2>
+    <p>Cá Viên Chiên ("the game", "we") is a street food stall simulation game developed and published on Google Play by <strong>[DEVELOPER NAME]</strong>. This policy explains what data we collect, why, and how you can control it.</p>
+
+    <h2>2. Data we collect</h2>
+    <p><strong>When you create an account (optional):</strong></p>
+    <ul>
+      <li><strong>Email address and password</strong> — used to sign in. Passwords are handled and stored in encrypted form by Firebase Authentication (Google); we never see your plaintext password.</li>
+      <li><strong>User ID (UID)</strong> — automatically generated by Firebase to link your game data to your account.</li>
+    </ul>
+    <p><strong>When you use cloud save and the leaderboard:</strong></p>
+    <ul>
+      <li><strong>Game progress data</strong> — in-game currency, level, reputation, diamonds, in-game day, and ingredient/sauce inventory.</li>
+      <li><strong>A display name</strong> you choose, together with your level, revenue, and reputation — shown publicly on the in-game leaderboard to other players.</li>
+    </ul>
+    <p><strong>If you play without an account:</strong> all game data stays on your device only and is never sent to our servers.</p>
+    <p><strong>Advertising (Google AdMob):</strong> the game may show ads via Google AdMob. AdMob may collect your device's Advertising ID, ad interaction data, and diagnostics, in accordance with the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+    <p><strong>In-app purchases:</strong> transactions are processed entirely by Google Play Billing. We do not collect or store any payment information.</p>
+
+    <h2>3. How we use data</h2>
+    <ul>
+      <li>Account management and syncing game progress across devices (cloud save).</li>
+      <li>Operating the in-game leaderboard.</li>
+      <li>Showing ads so the game can remain free.</li>
+    </ul>
+    <p>We do <strong>not sell</strong> your personal data and do <strong>not share</strong> it with third parties other than the service providers listed in section 4.</p>
+
+    <h2>4. Third-party services</h2>
+    <ul>
+      <li><strong>Firebase Authentication &amp; Cloud Firestore (Google)</strong> — sign-in and game data storage. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase privacy information</a></li>
+      <li><strong>Google AdMob</strong> — advertising. <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google advertising policies</a></li>
+      <li><strong>Google Play Billing</strong> — in-app purchase processing. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google privacy policy</a></li>
+    </ul>
+
+    <h2>5. Security and retention</h2>
+    <p>All data in transit between the game and our servers is encrypted with HTTPS. Account data is stored on Google Cloud infrastructure with security rules that only allow you to read and write your own data. Data is retained until you delete your account.</p>
+
+    <h2>6. Deleting your account and data</h2>
+    <p>You can request deletion of your account and all associated data (email, UID, cloud save, leaderboard entry) in either of two ways:</p>
+    <ul>
+      <li><strong>In-game:</strong> Settings → Account → Delete account.</li>
+      <li><strong>By email:</strong> send a request to <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a> from your registered email address with the subject "Delete Cá Viên Chiên account". We will process it within 30 days.</li>
+    </ul>
+    <p>Deletion is permanent and cannot be undone. Local save data on your device is removed when you uninstall the game.</p>
+
+    <h2>7. Children</h2>
+    <p>The game is not directed at children under 13, and we do not knowingly collect personal data from children under 13. If you believe a child has provided us personal data, please contact us so we can delete it.</p>
+
+    <h2>8. Changes to this policy</h2>
+    <p>When this policy changes, we will update the "Last updated" date at the top of this page. Significant changes will be announced in the game.</p>
+
+    <h2>9. Contact</h2>
+    <p>For any privacy questions, contact: <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a></p>
+  </main>
+
+  <footer>
+    <p data-vi>© 2026 [TÊN NHÀ PHÁT TRIỂN] — Cá Viên Chiên</p>
+    <p data-en hidden>© 2026 [DEVELOPER NAME] — Cá Viên Chiên</p>
+  </footer>
+</div>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('[data-vi]').forEach(el => el.hidden = (lang !== 'vi'));
+  document.querySelectorAll('[data-en]').forEach(el => el.hidden = (lang !== 'en'));
+  document.getElementById('btn-vi').classList.toggle('active', lang === 'vi');
+  document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  document.documentElement.lang = lang;
+}
+</script>
+</body>
+</html>
