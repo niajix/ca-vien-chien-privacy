@@ -1,17 +1,5 @@
 [
   {
-    "id": "sukien_trungthu_2026",
-    "priority": 10,
-    "active": true,
-    "start_at": "2026-09-01T00:00:00",
-    "end_at": "2026-09-20T23:59:59",
-    "tag": "event",
-    "title_vi": "🎉 Sự kiện Trung Thu",
-    "body_vi": "Đăng nhập mỗi ngày trong sự kiện để nhận 5 kim cương!",
-    "title_en": "🎉 Mid-Autumn Event",
-    "body_en": "Log in daily during the event to receive 5 diamonds!"
-  },
-  {
     "id": "update_1_1_0",
     "priority": 5,
     "active": true,
